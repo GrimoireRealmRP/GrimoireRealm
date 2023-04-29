@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.4",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "SaigoNoAkuma",
+    "preductname": "SaigoNoAkuma Launcher",
+    "version": "1.0.1",
+    "description": "Launcher Minecraft",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "author": "EnOx_S",
+    "url": "https://saigonoakuma.000webhostapp.com/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/SaigoNoAkuma3/SaigoNoAkumaLauncher.git"
     }
 }

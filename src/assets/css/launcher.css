@@ -12,6 +12,30 @@ body {
     padding: 0;
     user-select: none;
     background: linear-gradient(#00000066, #00000066), url("../images/background/light.jpg") black no-repeat center center scroll;
+    background-size: 120%;
+    /*animation: movebg 60s linear infinite;*/
+}
+
+@keyframes movebg {
+    0% {
+        background-position: 0 70%;
+    }
+
+    25% {
+        background-position: 25% 40%
+    }
+
+    50% {
+        background-position: 50% 50%
+    }
+
+    75% {
+        background-position: 75% 60%
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 img {

@@ -220,6 +220,15 @@ class Home {
         document.querySelector('.settings-btn').addEventListener('click', () => {
             changePanel('settings');
         });
+
+        document.querySelector("#discord-bouton").addEventListener("click", function() {
+            var discordFrame = document.querySelector("#discord-iframe");
+            if(discordFrame.style.display === "none") {
+                discordFrame.style.display = "block";
+            } else {
+                discordFrame.style.display = "none";
+            }
+        });
     }
 
     async getdate(e) {

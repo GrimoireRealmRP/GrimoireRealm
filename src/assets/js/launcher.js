@@ -57,7 +57,14 @@ class Launcher {
 
         document.querySelector("#close").addEventListener("click", () => {
             ipcRenderer.send("main-window-close");
-        })
+        });
+
+        document.addEventListener('mousemove', function(e) {
+            var xPos = -e.pageX/30;
+            var yPos = -e.pageY/30;
+
+            document.body.style.backgroundPosition = xPos + 'px ' + yPos + 'px';
+        });
     }
 
     createPanels(...panels) {

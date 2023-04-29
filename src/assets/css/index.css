@@ -9,6 +9,7 @@ body {
 
 img {
     -webkit-user-drag: none;
+    border-radius: 40%;
     user-select: none;
 }
 
