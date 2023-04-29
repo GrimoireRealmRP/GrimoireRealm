@@ -187,7 +187,7 @@ class Home {
                 progressBar.style.display = "none"
                 info.style.display = "none"
                 playBtn.style.display = "block"
-                info.innerHTML = `Vérification`
+                info.innerHTML = `Vérification des fichiers`
                 new logger('Launcher', '#7289da');
                 console.log('Close');
             });
