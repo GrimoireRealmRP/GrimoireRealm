@@ -84,7 +84,7 @@
     height: 50px;
     width: 50px;
     border: none;
-    transition: all 0.51s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .icon-settings:before {
