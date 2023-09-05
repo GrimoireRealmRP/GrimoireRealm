@@ -1,11 +1,11 @@
 {
-    "name": "SaigoNoAkuma",
-    "preductname": "SaigoNoAkuma Launcher",
+    "name": "GrimoireRealmRP",
+    "preductname": "GrimoireRealmRP Launcher",
     "version": "1.0.1",
     "description": "Launcher Minecraft",
     "main": "src/app.js",
     "author": "EnOx_S",
-    "url": "https://saigonoakuma.000webhostapp.com/",
+    "url": "https://grimoire-realm.dreamcpu.fr/launcher/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SaigoNoAkuma3/SaigoNoAkumaLauncher.git"
+        "url": "git+https://github.com/GrimoireRealmRP/GrimoireRealm.git"
     }
 }

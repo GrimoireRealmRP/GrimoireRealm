@@ -217,17 +217,19 @@ class Home {
     }
 
     initBtn() {
+        const shell = require('electron').shell;
         document.querySelector('.settings-btn').addEventListener('click', () => {
             changePanel('settings');
         });
 
-        document.querySelector("#discord-bouton").addEventListener("click", function() {
-            var discordFrame = document.querySelector("#discord-iframe");
-            if(discordFrame.style.display === "none") {
-                discordFrame.style.display = "block";
-            } else {
-                discordFrame.style.display = "none";
-            }
+        document.querySelector("#discord-btn").addEventListener("click", function() {
+            shell.openExternal("https://discord.gg/wjMeT7mBdR");
+        });
+        document.querySelector("#tiktok-btn").addEventListener("click", function() {
+            shell.openExternal("https://www.tiktok.com/@grimoirerealm");
+        });
+        document.querySelector("#website-btn").addEventListener("click", function() {
+            shell.openExternal("https://grimoire-realm.dreamcpu.fr/");
         });
     }
 

@@ -22,9 +22,7 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Koyoharu Gotōge", "author": "EnOx_S" },
-            { "message": "5 mai 1989", "author": "EnOx_S" },
-            { "message": "Fukuoka (Île de Kyūshū)", "author": "EnOx_S" }
+            { "message": "GrimoireRealmRP", "author": "EnOx_S" },
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;

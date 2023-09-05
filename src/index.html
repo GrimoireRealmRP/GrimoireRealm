@@ -9,8 +9,13 @@
 
             @keyframes border-flash {
                 0% {
-                    border: 2px solid red;
+                    border: 2px solid purple;
                     border-radius: 20px;
+                }
+
+                25% {
+                    border: 1px solid plum;
+                    border-radius: 20.5%;
                 }
 
                 50% {
@@ -18,8 +23,13 @@
                     border-radius: 20px;
                 }
 
+                75% {
+                    border: 1px solid plum;
+                    border-radius: 20.5%;
+                }
+
                 100% {
-                    border: 2px solid red;
+                    border: 2px solid purple;
                     border-radius: 20px;
                 }
             }
@@ -28,7 +38,7 @@
     </head>
     <body>
         <div id="splash" style="display:none;">
-            <img class="splash" src="assets/images/icon.png" />
+            <img class="splash" style="border: 2px solid white;" src="assets/images/icon.png" />
             <p class="splash-message"></p>
             <p class="splash-author"><span class="author"></span></p>
             <p class="message">Recherche de mise à jour</p>
